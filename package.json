@@ -1,0 +1,15 @@
+{
+  "name": "clear-glass-meting-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check server.mjs"
+  },
+  "dependencies": {
+    "@eldment/meting-agent": "1.6.11",
+    "@modelcontextprotocol/sdk": "1.27.1"
+  }
+}
